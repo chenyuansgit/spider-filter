@@ -1,0 +1,16 @@
+{
+  "name": "spider-filter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yuany.chen",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.3.0",
+    "mkdir": "0.0.2",
+    "tracer": "^0.8.11"
+  }
+}
