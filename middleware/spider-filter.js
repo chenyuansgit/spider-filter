@@ -33,8 +33,6 @@ var spiderFilter = function(ctx, next) {
     } else if (userAgent.indexOf('Inktomi slurp') != -1) {
         isSpider = true;
     }
-
-    isSpider = true;
     if (isSpider === true) {
         ctx.body = {
           code: 1,
